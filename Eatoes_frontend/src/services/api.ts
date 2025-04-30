@@ -1,7 +1,7 @@
 
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000'; 
+const API_URL = 'https://eatoes-seven.vercel.app'; 
 
 // Create axios instance with default config
 const api = axios.create({
