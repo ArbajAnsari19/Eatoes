@@ -15,7 +15,7 @@ const PORT = process.env.PORT || 5000;
 // Middlewares
 app.use(cors(
   {
-    origin: 'http://localhost:8080', // Replace with your frontend URL
+    origin: 'https://eatoes-frontend.vercel.app', // Replace with your frontend URL
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true,
   }
